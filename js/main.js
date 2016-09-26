@@ -29,7 +29,6 @@ var app = {
         this.store = new LocalStorageStore(function() {
           self.renderHomeView();
         });
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
     }
 
 
